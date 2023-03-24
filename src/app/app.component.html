@@ -1,3 +1,5 @@
-<h1>This new anlugar app for Material</h1>
-
-<button mat-button color="primary" (click)="btnClick()">Material Primary Button</button>
+<mat-toolbar color="primary" class="flex justify-content-space-between">
+  <span>Anguler Material Demo </span>
+  <a mat-raised-button routerLink="login">login</a>
+</mat-toolbar>
+<router-outlet></router-outlet>
