@@ -6,9 +6,11 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { LoginComponent } from './auth/login/login.component';
+import { BloglistComponent } from './blog/bloglist/bloglist.component';
+import { BlogitemComponent } from './blog/blogitem/blogitem.component';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent],
+  declarations: [AppComponent, LoginComponent, BloglistComponent, BlogitemComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
